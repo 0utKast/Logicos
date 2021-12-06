@@ -2,6 +2,34 @@
 
 int main()
 {
+	std::cout << "Escribe un número: ";
+	int valor{};
+	std::cin >> valor;
+
+	if (valor == 0 || valor == 1)
+		std::cout << "Has escogido 0 ó 1\n";
+	else
+		std::cout << "No has escogido 0 ó 1\n";
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#include <iostream>
+
+int main()
+{
 	int x{ 5 };
 	int y{ 7 };
 
@@ -11,7 +39,7 @@ int main()
 		std::cout << x << " es mayor que " << y << '\n';
 
 	return 0;
-}
+}*/
 
 
 
