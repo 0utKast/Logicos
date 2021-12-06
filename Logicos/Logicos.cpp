@@ -6,10 +6,10 @@ int main()
 	int valor{};
 	std::cin >> valor;
 
-	if (valor > 10 && valor < 20)
-		std::cout << "Tu valor está entre 10 y 20\n";
+	if (valor > 10 && valor < 20 && valor !=15)
+		std::cout << "Tu valor está entre 10 y 20 y no es 15\n";
 	else
-		std::cout << "Tu valor no está entre 10 y 20\n";
+		std::cout << "Tu valor no está entre 10 y 20 ó es 15\n";
 	return 0;
 }
 
