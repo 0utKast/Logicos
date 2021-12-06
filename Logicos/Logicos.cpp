@@ -6,12 +6,18 @@ int main()
 	int valor{};
 	std::cin >> valor;
 
-	if (valor == 0 || valor == 1)
-		std::cout << "Has escogido 0 ó 1\n";
+	if (valor == 0 || valor == 1 || valor == 2 || valor == 3)
+		std::cout << "Has escogido 0, 1, 2, ó 3\n";	
 	else
-		std::cout << "No has escogido 0 ó 1\n";
+		std::cout << "No has escogido 0, 1, 2 ó 3\n";
 	return 0;
 }
+
+
+
+
+/*if (valor == 0 || valor == 1)
+std::cout << "Has escogido 0 ó 1\n";*/
 
 
 
