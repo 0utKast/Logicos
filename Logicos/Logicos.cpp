@@ -6,12 +6,41 @@ int main()
 	int valor{};
 	std::cin >> valor;
 
+	if (valor > 10 && valor < 20)
+		std::cout << "Tu valor está entre 10 y 20\n";
+	else
+		std::cout << "Tu valor no está entre 10 y 20\n";
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#include <iostream>
+
+int main()
+{
+	std::cout << "Escribe un número: ";
+	int valor{};
+	std::cin >> valor;
+
 	if (valor == 0 || valor == 1 || valor == 2 || valor == 3)
 		std::cout << "Has escogido 0, 1, 2, ó 3\n";	
 	else
 		std::cout << "No has escogido 0, 1, 2 ó 3\n";
 	return 0;
-}
+}*/
 
 
 
